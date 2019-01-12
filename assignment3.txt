@@ -1,0 +1,30 @@
+Assignment #3: Named Entity Recognition and Recurrent Neural Networks
+Last updated: 2/14 (Tue) 2 PM PST.
+Due Date: 2/27 (Tue) 11:59 PM PST.
+Hard deadline: 3/2 (Fri) 11:59 PM PST with 3 late days. Assignments turned in past this date will be penalized (see the grading page).
+
+In this assignment you will learn about named entity recognition and implement a baseline window-based model, as well as a recurrent neural network model. The assignment also covers gated recurrent units, applying them to simple 1D sequences and the named entity recognition.
+
+Setup
+Note: Please be sure you have Python 2.7.x installed on your system. The following instructions should work on Mac or Linux. If you have any trouble getting set up, please come to office hours and the TAs will be happy to help.
+
+Get the code: Download the starter code here and the assignment handout here.
+
+Python package requirements: The core requirements for this assignment are
+
+tensorflow
+numpy
+matplotlib
+Submitting your work
+Do not code outside of the "# YOUR CODE HERE" blocks, modify the list of imports, change function names, etc. (tuning parameters is fine). Make sure your code runs before submitting. Crashing due to undefined variables, missing imports, hard-coded dimensions, and bad indentation will lead to significant deductions.
+
+For the written component, please upload a PDF file of your solutions to Gradescope. When asked to map question parts to your PDF, please map the parts accordingly as courtesy to your TAs. This is crucial so that we can provide accurate feedback.
+
+Submission instructions are posted on Piazza here.
+
+Assignment Overview (Tasks)
+There will be three parts to this assignment. Question 3(d) depends on 2(c), but otherwise the rest of the assignment can be done independently. We recommend reading the assignment carefully and starting early as some parts may take significant time.
+
+Q1: A window into NER (30 points)
+Q2: Recurrent neural nets for NER (40 points)
+Q3: Grooving with GRUs (30 points)

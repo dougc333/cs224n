@@ -1,0 +1,27 @@
+Assignment #2: TensorFlow, Neural Dependency Parsing, and RNN Language Modeling
+Due Date: 2/8 (Thu) 11:59 PM PST.
+Hard deadline: 2/11 (Sun) 11:59 PM PST with 3 late days.
+
+In this assignment you will learn the fundamentals of TensorFlow, use TensorFlow to implemented a feed-forward neural network for transition-based dependency parsing, and delve into backpropagation through time by computing the gradients for a recurrent neural network language model.
+
+Solutions
+Written solutions have been downloaded to cs224n folder
+Setup
+
+Note: Please be sure you have Python 2.7.x installed on your system. The following instructions should work on Mac or Linux. If you have any trouble getting set up, please come to office hours and the TAs will be happy to help.
+
+Get the code: Download the starter code here and the assignment handout here.
+
+Python package requirements: The core requirements for this assignment are
+
+tensorflow
+numpy
+See the TensorFlow webpage for installation directions. You should use the latest version of TensorFlow (1.4.1).
+Submitting your work
+Submission instructions are posted on Piazza here.
+Assignment Overview (Tasks)
+There will be three parts to this assignment. Coding the neural dependency parsing (Q2 part (h)) is designed to be completed after Part 1. The rest of the assignment can be done independently. We recommend reading the assignment carefully and starting early as some parts may take significant time.
+
+Q1: Tensorflow Softmax (25 points, coding)
+Q2: Neural Transition-Based Dependency Parsing (50 points, mostly coding with a bit of theory)
+Q3: Recurrent Neural Networks: Language Modeling (25 points, theory)
